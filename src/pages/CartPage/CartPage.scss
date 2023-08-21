@@ -1,0 +1,24 @@
+@use "../../main.scss";
+
+.cart-section {
+  @include main.stylesForCartAndFavPage;
+}
+.cart {
+  &__total-price {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 100px;
+    font-size: 30px;
+    color: white;
+  }
+
+  &__link {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__button {
+    @include main.button;
+    margin: 20px 100px;
+  }
+}

@@ -1,0 +1,21 @@
+.main-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 30px;
+  &__list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .main-section {
+    margin: 0 15px;
+    &__list {
+      gap: 20px;
+    }
+  }
+}

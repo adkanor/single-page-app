@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(76, 69, 72);
+}
+@mixin button {
+  display: block;
+  background-color: rgb(116, 34, 50);
+  margin-left: 15px;
+  padding: 10px 25px;
+  border-radius: 4px;
+  border: 1px solid rgb(63, 22, 32, 0.3);
+  color: rgb(244, 203, 204);
+  font-size: 20px;
+  cursor: pointer;
+  &:hover {
+    color: whitesmoke;
+    border: 1px solid rgb(19, 3, 7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+@mixin emptyCartOrFavPage {
+  margin: 100px;
+  padding: 50px 0px;
+  border: 1px solid rgb(51, 38, 38);
+
+  &__text {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  &__svg {
+    display: block;
+    margin: auto;
+  }
+}
+
+@mixin emptyCartOrFavPageForSmallScreen {
+  margin: 50px;
+  padding: 20px 0px;
+  border: 1px solid rgb(51, 38, 38);
+
+  &__text {
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  &__svg {
+    display: block;
+    margin: auto;
+  }
+}
+@mixin stylesForCartAndFavPage {
+  margin: 30px 0px;
+  padding: 30px 0px;
+  border-top: 1px solid rgb(51, 38, 38);
+  border-bottom: 1px solid rgb(51, 38, 38);
+}

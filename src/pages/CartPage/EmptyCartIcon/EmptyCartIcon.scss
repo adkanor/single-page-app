@@ -1,0 +1,10 @@
+@use "../../../main.scss";
+
+.emptyCartIcon {
+  @include main.emptyCartOrFavPage;
+}
+@media (max-width: 500px) {
+  .emptyCartIcon {
+    @include main.emptyCartOrFavPageForSmallScreen;
+  }
+}

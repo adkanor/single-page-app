@@ -1,0 +1,14 @@
+.cart {
+  &__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__icon {
+    margin-right: 20px;
+  }
+  &__number {
+    margin-right: 20px;
+    font-size: 26px;
+  }
+}

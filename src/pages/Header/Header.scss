@@ -1,0 +1,42 @@
+.header {
+  max-width: 100vw;
+  color: white;
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100vw;
+    align-items: center;
+    padding: 10px 80px;
+  }
+  &__links-group {
+    display: flex;
+  }
+  &__link {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  &__link-to-main {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 2px;
+  }
+}
+@media (max-width: 999px) {
+  .header {
+    &__links {
+      padding: 10px 15px;
+    }
+    &__link {
+      margin-right: 12px;
+    }
+    &__link-to-main {
+      margin-left: 17px;
+      font-size: 20px;
+    }
+  }
+}

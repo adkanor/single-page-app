@@ -1,0 +1,6 @@
+@use "../../main.scss";
+
+.button {
+  @include main.button;
+  margin-left: 0;
+}

@@ -1,0 +1,10 @@
+@use "../../../main.scss";
+
+.emptyFavoriteIcon {
+  @include main.emptyCartOrFavPage;
+}
+@media (max-width: 500px) {
+  .emptyFavoriteIcon {
+    @include main.emptyCartOrFavPageForSmallScreen;
+  }
+}

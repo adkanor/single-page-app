@@ -1,0 +1,92 @@
+@use "../../main.scss";
+.form {
+  border-radius: 20px;
+  width: 70%;
+  margin: 50px auto;
+  padding: 30px 0;
+  max-width: 650px;
+  background-color: rgba(158, 130, 130, 0.3);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  &__input-container {
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__input-content {
+    padding-left: 20px;
+    background-color: transparent;
+    color: white;
+    font-weight: 300;
+    font-size: 26px;
+    letter-spacing: 1px;
+    display: inline;
+  }
+  &__input-error {
+    color: red;
+    background-color: transparent;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  &__input {
+    font-size: 24px;
+    color: white;
+    padding: 12px 20px;
+    margin: 15px 10px;
+    box-sizing: border-box;
+    background-color: rgb(51, 38, 38, 0.3);
+    border: none;
+    border-radius: 10px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    &::placeholder {
+      color: #dedede;
+      opacity: 0.6;
+    }
+    &:focus {
+      background-color: rgba(116, 34, 50, 0.5);
+      border-color: #dfc0c0;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(154, 152, 152, 0.25);
+    }
+  }
+  &__submit-button {
+    @include main.button;
+    margin: auto;
+  }
+}
+.link {
+  padding: 10px 0px;
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+  text-shadow: 1px 1px 2px pink;
+}
+
+@media (max-width: 999px) {
+  .form {
+    padding: 20px 0;
+    &__input-container {
+      padding: 30px 20px;
+    }
+    &__input-content {
+      font-size: 20px;
+    }
+    &__input-error {
+      font-size: 16px;
+      margin-left: 20px;
+    }
+    &__input {
+      font-size: 20px;
+      padding: 10px 18px;
+      margin: 15px 10px;
+    }
+  }
+  .link {
+    font-size: 16px;
+  }
+}

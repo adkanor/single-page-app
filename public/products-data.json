@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "Rolling Realms",
+    "price": "35",
+    "image": "https://store.stonemaiergames.com/cdn/shop/products/3d-rollingrealms_460x.png?v=1625683734",
+    "vendorCode": 345638
+  },
+  {
+    "id": 2,
+    "name": "Wingspan",
+    "price": "110",
+    "image": "https://stonemaiergames.com/wp-content/uploads/2019/02/3d-wingspan-1024x1002.png",
+    "vendorCode": 345639
+  },
+  {
+    "id": 3,
+    "name": "Root",
+    "price": "135",
+    "image": "https://ledergames.com/cdn/shop/products/1-RootGameBox-Edit-Web.png?crop=center&height=1024&v=1595294735&width=1024",
+    "vendorCode": 345649
+  },
+  {
+    "id": 4,
+    "name": "7 Wonders: Duel",
+    "price": "90",
+    "image": "https://cdn.svc.asmodee.net/production-rprod/storage/games/7-wonders-duel/57du-3dmockup-1597826159KUURt.png",
+    "vendorCode": 345648
+  },
+  {
+    "id": 5,
+    "name": "Libertalia",
+    "price": "77",
+    "image": "https://store.stonemaiergames.com/cdn/shop/products/3d-libertalia_460x.png?v=1639522604",
+    "vendorCode": 345647
+  },
+  {
+    "id": 6,
+    "name": "Scythe",
+    "price": "110",
+    "image": "https://store.stonemaiergames.com/cdn/shop/products/3d-scythe-legendary_460x.png?v=1656496151",
+    "vendorCode": 345646
+  },
+  {
+    "id": 7,
+    "name": "Dune: Imperium (2020)",
+    "price": "150",
+    "image": "https://y8t6p8a4.map2.ssl.hwcdn.net/shop-products/February2022/Dune_upgrade_450x5101.png",
+    "vendorCode": 345645
+  },
+  {
+    "id": 8,
+    "name": "Viticulture Essential Edition",
+    "price": "200",
+    "image": "https://store.stonemaiergames.com/cdn/shop/products/3Dbox2021_460x.png?v=1614181126",
+    "vendorCode": 345644
+  },
+  {
+    "id": 9,
+    "name": "Viticulture",
+    "price": "135",
+    "image": "https://store.stonemaiergames.com/cdn/shop/products/3d-tuscany_460x.png?v=1568735883",
+    "vendorCode": 345643
+  },
+  {
+    "id": 10,
+    "name": "Euphoria",
+    "price": "90",
+    "image": "https://store.stonemaiergames.com/cdn/shop/products/3D_box_460x.png?v=1553174532",
+    "vendorCode": 345642
+  },
+  {
+    "id": 11,
+    "name": "Between Two Castles",
+    "price": "55",
+    "image": "https://store.stonemaiergames.com/cdn/shop/products/3d-b2c_bd96833a-d72d-4ac7-ab62-8c41e85fb010_460x.png?v=1620739178",
+    "vendorCode": 345641
+  },
+  {
+    "id": 12,
+    "name": "Twilight Imperium",
+    "price": "60",
+    "image": "https://dragoneye.pl/images/ti07_box_left.png",
+    "vendorCode": 345650
+  },
+  {
+    "id": 13,
+    "name": "Charterstone",
+    "price": "80",
+    "image": "https://store.stonemaiergames.com/cdn/shop/products/3d-charterstone_460x.png?v=1551977630",
+    "vendorCode": 345651
+  },
+  {
+    "id": 14,
+    "name": "Red Rising Collector's Edition",
+    "price": "90",
+    "image": "https://store.stonemaiergames.com/cdn/shop/products/3DBox-collector_460x.png?v=1631202559",
+    "vendorCode": 345652
+  },
+  {
+    "id": 15,
+    "name": "Birmingham",
+    "price": "115",
+    "image": "https://cdn.shopify.com/s/files/1/0246/2190/8043/products/top-section-product-image-alt.png?v=1581282813",
+    "vendorCode": 345653
+  },
+  {
+    "id": 16,
+    "name": "Pendulum",
+    "price": "250",
+    "image": "https://store.stonemaiergames.com/cdn/shop/products/3Dbox_460x.png?v=1604703166",
+    "vendorCode": 345654
+  }
+]

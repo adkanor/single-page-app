@@ -1,0 +1,9 @@
+.svg {
+  cursor: pointer;
+}
+.svg.not-selected {
+  fill: none;
+}
+.svg.selected {
+  fill: white;
+}

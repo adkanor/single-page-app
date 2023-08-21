@@ -1,0 +1,12 @@
+@use "../../main.scss";
+.favorite {
+  &__section {
+    @include main.stylesForCartAndFavPage;
+  }
+  &__list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
